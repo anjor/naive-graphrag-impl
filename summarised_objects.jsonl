@@ -1,0 +1,21 @@
+{"name": "Y Combinator", "type": "organization", "description": "A seed money startup accelerator that has launched over 2,000 companies."}
+{"name": "Founders", "type": "group", "description": "Individuals who start and build startups."}
+{"name": "YC Partners", "type": "group", "description": "Individuals who work at Y Combinator and decide which startups to fund."}
+{"name": "Boom", "type": "organization", "description": "A company with an obvious path to a huge market."}
+{"name": "Apple", "type": "organization", "description": "A successful company that started with a larval market in personal computers."}
+{"name": "Steve Wozniak", "type": "person", "description": "Co-founder of Apple who wanted a computer."}
+{"name": "Mark Zuckerberg", "type": "person", "description": "Founder of Facebook who wanted to engage online with college friends."}
+{"name": "Larry Page", "type": "person", "description": "Co-founder of Google who wanted to find things on the web."}
+{"name": "Sergey Brin", "type": "person", "description": "Co-founder of Google who wanted to find things on the web."}
+{"name": "Airbnb", "type": "organization", "description": "A successful startup providing an online marketplace for lodging."}
+{"name": "Startups", "type": "organization", "description": "Newly established businesses looking for growth and investment."}
+{"name": "YC interviews", "type": "event", "description": "The process through which YC evaluates and selects startups."}
+{"name": "Obama-O's", "type": "product", "description": "An Obama-themed breakfast cereal created by the founders of Airbnb."}
+{"name": "Cap'n McCain's", "type": "product", "description": "A McCain-themed breakfast cereal created by the founders of Airbnb."}
+{"from_entity": {"name": "YC Partners", "type": "group", "description": "Individuals who work at Y Combinator and decide which startups to fund."}, "to_entity": {"name": "Startups", "type": "organization", "description": "Newly established businesses looking for growth and investment."}, "label": "evaluate and fund", "strength": 1.0}
+{"from_entity": {"name": "Founders", "type": "group", "description": "Individuals who start and build startups."}, "to_entity": {"name": "Startups", "type": "organization", "description": "Newly established businesses looking for growth and investment."}, "label": "create and grow", "strength": 1.0}
+{"from_entity": {"name": "Founders", "type": "group", "description": "Individuals who start and build startups."}, "to_entity": {"name": "Users", "type": "group", "description": "The initial seed group of people who want and use the startup's product or service."}, "label": "understand needs", "strength": 1.0}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup providing an online marketplace for lodging."}, "to_entity": {"name": "Hosts", "type": "group", "description": "Individuals who offer their properties for rent on Airbnb."}, "label": "platform for listing properties", "strength": 1.0}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup providing an online marketplace for lodging."}, "to_entity": {"name": "Guests", "type": "group", "description": "Individuals who book and stay in properties listed on Airbnb."}, "label": "platform for booking stays", "strength": 1.0}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup providing an online marketplace for lodging."}, "to_entity": {"name": "Obama-O's", "type": "product", "description": "An Obama-themed breakfast cereal created by the founders of Airbnb."}, "label": "funded by creating", "strength": 0.9}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup providing an online marketplace for lodging."}, "to_entity": {"name": "Cap'n McCain's", "type": "product", "description": "A McCain-themed breakfast cereal created by the founders of Airbnb."}, "label": "funded by creating", "strength": 0.9}

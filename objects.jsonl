@@ -1,0 +1,70 @@
+{"name": "Y Combinator (YC)", "type": "organization", "description": "An American seed money startup accelerator that has been used to launch over 2,000 companies, including Dropbox, Airbnb, Stripe, and Reddit."}
+{"name": "Politicians", "type": "group", "description": "Individuals involved in politics who sometimes argue that the only way to become a billionaire is by exploiting people."}
+{"name": "Founders", "type": "group", "description": "Individuals who start and build startups and seek funding from accelerators like Y Combinator."}
+{"name": "YC Partners", "type": "group", "description": "Individuals who work at Y Combinator and are responsible for deciding which startups to fund."}
+{"name": "Y Combinator Motto", "type": "concept", "description": "'Make something people want.'"}
+{"name": "YC partners", "type": "person", "description": "Partners at Y Combinator who evaluate potential startups."}
+{"name": "Boom", "type": "organization", "description": "A company mentioned as an example of one with an obvious path to a huge market."}
+{"name": "Apple", "type": "organization", "description": "An example of a successful company that started with a larval market in personal computers."}
+{"name": "1976", "type": "date", "description": "The year Apple was founded."}
+{"name": "Steve Wozniak", "type": "person", "description": "Co-founder of Apple who wanted a computer."}
+{"name": "Mark Zuckerberg", "type": "person", "description": "Founder of Facebook who wanted to engage online with college friends."}
+{"name": "Larry Page", "type": "person", "description": "Co-founder of Google who wanted to find things on the web."}
+{"name": "Sergey Brin", "type": "person", "description": "Co-founder of Google who wanted to find things on the web."}
+{"name": "international airlines", "type": "organization", "description": "Potential customers for Boom's airliner."}
+{"name": "larval market", "type": "concept", "description": "A small but growable market that eventually leads to a huge market."}
+{"name": "YC partners", "type": "organization", "description": "The partners at Y Combinator who evaluate and decide on funding startups."}
+{"name": "Airbnb", "type": "organization", "description": "A successful startup that provides an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities."}
+{"name": "founders", "type": "group", "description": "The individuals who establish and build startups, seeking funding and support from Y Combinator."}
+{"name": "users", "type": "group", "description": "The initial seed group of people who want and use the startup's product or service."}
+{"name": "startups", "type": "organization", "description": "Newly established businesses, typically in the tech industry, looking for growth and investment."}
+{"name": "hosts", "type": "group", "description": "Individuals who offer their properties for rent on Airbnb."}
+{"name": "guests", "type": "group", "description": "Individuals who book and stay in properties listed on Airbnb."}
+{"from_entity": {"name": "YC partners", "type": "organization", "description": "The partners at Y Combinator who evaluate and decide on funding startups."}, "to_entity": {"name": "startups", "type": "organization", "description": "Newly established businesses, typically in the tech industry, looking for growth and investment."}, "label": "evaluate and fund", "strength": 1.0}
+{"from_entity": {"name": "YC partners", "type": "organization", "description": "The partners at Y Combinator who evaluate and decide on funding startups."}, "to_entity": {"name": "founders", "type": "group", "description": "The individuals who establish and build startups, seeking funding and support from Y Combinator."}, "label": "interview and assess", "strength": 1.0}
+{"from_entity": {"name": "founders", "type": "group", "description": "The individuals who establish and build startups, seeking funding and support from Y Combinator."}, "to_entity": {"name": "startups", "type": "organization", "description": "Newly established businesses, typically in the tech industry, looking for growth and investment."}, "label": "create and grow", "strength": 1.0}
+{"from_entity": {"name": "users", "type": "group", "description": "The initial seed group of people who want and use the startup's product or service."}, "to_entity": {"name": "startups", "type": "organization", "description": "Newly established businesses, typically in the tech industry, looking for growth and investment."}, "label": "use and provide feedback", "strength": 1.0}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup that provides an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities."}, "to_entity": {"name": "hosts", "type": "group", "description": "Individuals who offer their properties for rent on Airbnb."}, "label": "platform for listing properties", "strength": 1.0}
+{"from_entity": {"name": "Airbnb", "type": "organization", "description": "A successful startup that provides an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities."}, "to_entity": {"name": "guests", "type": "group", "description": "Individuals who book and stay in properties listed on Airbnb."}, "label": "platform for booking stays", "strength": 1.0}
+{"from_entity": {"name": "founders", "type": "group", "description": "The individuals who establish and build startups, seeking funding and support from Y Combinator."}, "to_entity": {"name": "users", "type": "group", "description": "The initial seed group of people who want and use the startup's product or service."}, "label": "understand needs", "strength": 1.0}
+{"name": "YC", "type": "organization", "description": "Y Combinator, a startup accelerator that provides seed funding and advice to startups."}
+{"name": "YC interviews", "type": "event", "description": "The process through which YC evaluates and selects startups for its accelerator program."}
+{"name": "YC partners", "type": "person", "description": "Individuals who evaluate startups during YC interviews."}
+{"name": "founders", "type": "person", "description": "Startup founders who apply and interview for the YC program."}
+{"name": "VCs", "type": "person", "description": "Venture capitalists who invest in startups."}
+{"name": "partners", "type": "people", "description": "experienced investors evaluating ideas during an interview process"}
+{"name": "YC partners", "type": "people", "description": "partners at Y Combinator"}
+{"name": "Airbnb founders", "type": "people", "description": "founders of Airbnb known for their resourcefulness and determination"}
+{"name": "Obama- and McCain-themed breakfast cereal", "type": "object", "description": "a creative funding strategy used by Airbnb founders"}
+{"name": "Airbnb", "type": "company", "description": "A company that was funded by making Obama- and McCain-themed breakfast cereal."}
+{"name": "Obama-O's", "type": "product", "description": "An Obama-themed breakfast cereal created by the founders of Airbnb."}
+{"name": "Cap'n McCain's", "type": "product", "description": "A McCain-themed breakfast cereal created by the founders of Airbnb."}
+{"name": "Y Combinator (YC)", "type": "organization", "description": "An organization that funds startups."}
+{"name": "YC Partners", "type": "group", "description": "Members of Y Combinator who are responsible for making decisions on funding startups."}
+{"name": "Founders", "type": "group", "description": "Individuals who start companies."}
+{"name": "Billionaires", "type": "group", "description": "Individuals who have attained a billionaire status, often through creating and growing companies."}
+{"name": "Startups", "type": "concept", "description": "Newly established businesses."}
+{"from_entity": {"name": "Airbnb", "type": "company", "description": "A company that was funded by making Obama- and McCain-themed breakfast cereal."}, "to_entity": {"name": "Obama-O's", "type": "product", "description": "An Obama-themed breakfast cereal created by the founders of Airbnb."}, "label": "funded by creating", "strength": 0.9}
+{"from_entity": {"name": "Airbnb", "type": "company", "description": "A company that was funded by making Obama- and McCain-themed breakfast cereal."}, "to_entity": {"name": "Cap'n McCain's", "type": "product", "description": "A McCain-themed breakfast cereal created by the founders of Airbnb."}, "label": "funded by creating", "strength": 0.9}
+{"from_entity": {"name": "Y Combinator (YC)", "type": "organization", "description": "An organization that funds startups."}, "to_entity": {"name": "YC Partners", "type": "group", "description": "Members of Y Combinator who are responsible for making decisions on funding startups."}, "label": "decision makers", "strength": 1.0}
+{"from_entity": {"name": "Founders", "type": "group", "description": "Individuals who start companies."}, "to_entity": {"name": "Startups", "type": "concept", "description": "Newly established businesses."}, "label": "create", "strength": 1.0}
+{"from_entity": {"name": "Founders", "type": "group", "description": "Individuals who start companies."}, "to_entity": {"name": "Billionaires", "type": "group", "description": "Individuals who have attained a billionaire status, often through creating and growing companies."}, "label": "can become", "strength": 0.8}
+{"from_entity": {"name": "Y Combinator (YC)", "type": "organization", "description": "An organization that funds startups."}, "to_entity": {"name": "Founders", "type": "group", "description": "Individuals who start companies."}, "label": "funds", "strength": 0.9}
+{"name": "Y Combinator", "type": "organization", "description": "A startup accelerator that provides seed funding, advice, and connections to early-stage startups."}
+{"name": "YC partners", "type": "person", "description": "Partners within Y Combinator responsible for selecting and mentoring startups."}
+{"name": "founders", "type": "person", "description": "Individuals who start new companies, particularly startups."}
+{"name": "cofounders", "type": "person", "description": "Individuals who jointly start a company together."}
+{"name": "early adopters", "type": "person", "description": "Initial users who adopt a new product or service early in its lifecycle."}
+{"name": "billionaire scouts", "type": "person", "description": "Individuals or professionals who identify and invest in potential billionaires or high-growth startups."}
+{"name": "politicians", "type": "person", "description": "Elected or appointed officials who create and enforce policies."}
+{"name": "poor kids", "type": "person", "description": "Children with low economic status who are being told how to get rich."}
+{"name": "rich kids", "type": "person", "description": "Children with high economic status who have learned how to get rich from previous generations."}
+{"name": "companies", "type": "organization", "description": "Businesses that grow by making what users want."}
+{"name": "users", "type": "person", "description": "People whose needs and wants are the focus of companies and startups."}
+{"name": "YC", "type": "organization", "description": "Y Combinator, a startup accelerator that interviews partners and funds founders."}
+{"name": "founders", "type": "person", "description": "Individuals who start companies and aim to become billionaires by focusing on users."}
+{"from_entity": {"name": "users", "type": "person", "description": "People whose needs and wants are the focus of companies and startups."}, "to_entity": {"name": "companies", "type": "organization", "description": "Businesses that grow by making what users want."}, "label": "focus of", "strength": 1.0}
+{"from_entity": {"name": "YC", "type": "organization", "description": "Y Combinator, a startup accelerator that interviews partners and funds founders."}, "to_entity": {"name": "partners", "type": "person", "description": "Individuals interviewed by Y Combinator."}, "label": "interviews", "strength": 0.8}
+{"from_entity": {"name": "YC", "type": "organization", "description": "Y Combinator, a startup accelerator that interviews partners and funds founders."}, "to_entity": {"name": "founders", "type": "person", "description": "Individuals who start companies and aim to become billionaires by focusing on users."}, "label": "funding source", "strength": 0.9}
+{"from_entity": {"name": "companies", "type": "organization", "description": "Businesses that grow by making what users want."}, "to_entity": {"name": "users", "type": "person", "description": "People whose needs and wants are the focus of companies and startups."}, "label": "delight", "strength": 0.9}
+{"from_entity": {"name": "founders", "type": "person", "description": "Individuals who start companies and aim to become billionaires by focusing on users."}, "to_entity": {"name": "users", "type": "person", "description": "People whose needs and wants are the focus of companies and startups."}, "label": "eager to serve", "strength": 0.9}
